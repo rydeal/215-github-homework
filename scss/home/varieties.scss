@@ -1,7 +1,7 @@
 //this scss file is for the varieties sections (equipment, mobs, biomes)
 
 .varieties {
-    min-height: 100%;
+    min-height: 320px;
     width: 100%;
     background-color: $site-green;
 
@@ -13,28 +13,137 @@
 
     .equipment-container {
         height: 124px;
-        margin-top: 34px;
+        width: 500px;
+        text-align: center;
+        margin: 0px 25%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .image-structure {
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        justify-content: space-between;
+        margin-right: 25%;
     
-        .image-structure {
+        .eq1, .eq2, .eq3, .eq4, .eq5, .eq6, .eq7, .eq8, .eq9, .eq10, .eq11, .eq12, .eq13, .eq14, .eq15,  {
             height: 100%;
             width: 100px;
-            display: flex;
+            margin: 0 auto;
             justify-content: space-between;
-        
-            .eq1, .eq2, .eq3, .eq4, .eq5, .eq6, .eq7, .eq8, .eq9, .eq10, .eq11, .eq12, .eq13, .eq14, .eq15,  {
-                height: 100%;
-                width: 25%;
-                margin: 0 100px;
-            }
-        }
 
-        .eq1 {
-            background-image: url("../../img/equipment/eq1.png");
-            background-position: center;
-            background-size: cover;
-            background-color: red;
+            .eq-title {
+                padding: 20%;
+                color: white;
+                font-size: 1.2em;
+            }
+
         }
+    }
+
+    .eq1 {
+        background-image: url("../../img/equipment/eq1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq2 {
+        background-image: url("../../img/equipment/eq2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq3 {
+        background-image: url("../../img/equipment/eq3.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq4 {
+        background-image: url("../../img/equipment/eq4.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq5 {
+        background-image: url("../../img/equipment/eq5.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq6 {
+        background-image: url("../../img/equipment/eq6.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq7 {
+        background-image: url("../../img/equipment/eq7.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq8 {
+        background-image: url("../../img/equipment/eq8.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq9 {
+        background-image: url("../../img/equipment/eq9.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq10 {
+        background-image: url("../../img/equipment/eq10.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq11 {
+        background-image: url("../../img/equipment/e11.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq12 {
+        background-image: url("../../img/equipment/eq12.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq13 {
+        background-image: url("../../img/equipment/eq13.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq14 {
+        background-image: url("../../img/equipment/eq14.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq15 {
+        background-image: url("../../img/equipment/eq15.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
