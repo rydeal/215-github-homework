@@ -1,0 +1,23 @@
+.footer {
+  height: 15%;
+  background-color: $site-grey;
+  color: white;
+  .contributors {
+    font-size: 20px;
+    @include centerContent();
+    h5 {
+      margin-top: 20px;
+    }
+  }
+  .copyright {
+    @include centerContent();
+  }
+  .logo {
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+}

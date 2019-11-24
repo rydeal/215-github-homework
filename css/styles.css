@@ -15,10 +15,46 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 16px; }
+  margin-bottom: 20px; }
+
+.footer {
+  height: 15%;
+  background-color: #555555;
+  color: white; }
+  .footer .contributors {
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 30%; }
+    .footer .contributors h5 {
+      margin-top: 20px; }
+  .footer .copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 30%; }
+  .footer .logo {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 35%; }
 
 .howTo {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   background-color: #477A1E; }
   .howTo .title {
@@ -42,8 +78,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .start {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -55,8 +90,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .starting {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -68,8 +102,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .edition {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -81,8 +114,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .difference {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -94,8 +126,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .download {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -107,8 +138,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .downloading {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,8 +150,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .playing {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,8 +162,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
   .howTo .play {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -146,5 +174,4 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%;
-    margin-bottom: 20px; }
+    margin-left: 30%; }
