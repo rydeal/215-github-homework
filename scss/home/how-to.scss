@@ -1,1 +1,18 @@
 //this scss file is for styling the how-to section (what to do when you first get into your world)
+.howTo {
+  height: 100%;
+  width: $full-site-width;
+  background-color: $site-green;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .opener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+}
