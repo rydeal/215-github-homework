@@ -57,6 +57,8 @@ p {
   min-height: 100%;
   width: 100%;
   background-color: #477A1E; }
+  .howTo p {
+    font-size: 18px; }
   .howTo .title {
     display: -webkit-box;
     display: -ms-flexbox;

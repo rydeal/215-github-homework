@@ -3,7 +3,10 @@
   min-height: 100%;
   width: 100%;
   background-color: $site-green;
-
+  
+    p{
+        font-size:18px;
+    }
   .title {
     display: flex;
     justify-content: center;
