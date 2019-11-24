@@ -7,3 +7,12 @@
   // text-align: center;
   margin: auto;
 }
+
+@mixin imageSet($image) {
+  height: 300px;
+  width: 300px;
+  background-image: url($image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

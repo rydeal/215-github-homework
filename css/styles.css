@@ -178,6 +178,146 @@ p {
     width: 40%;
     margin: auto; }
 
+.gallery {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #477a1e; }
+  .gallery .group {
+    height: 500px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .gallery .group .one {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery1.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .two {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery2.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .three {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .four {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery4.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .five {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery5.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .six {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery6.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .seven {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery7.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .eight {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery8.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .nine {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery9.webp");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .ten {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery10.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .eleven {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery11.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .twelve {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery12.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .thirteen {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery13.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .fourteen {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery14.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .fifteen {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery15.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .gallery .group .sixteen {
+      height: 300px;
+      width: 300px;
+      background-image: url("../img/gallery16.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+
 .start {
   min-height: 100%;
   width: 100%;
