@@ -33,7 +33,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
     .footer .contributors h5 {
       margin-top: 20px; }
   .footer .copyright {
@@ -47,7 +47,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .footer .logo {
     position: absolute;
     margin-top: 20px;
@@ -56,7 +56,7 @@ p {
 .howTo {
   min-height: 100%;
   width: 100%;
-  background-color: #477A1E; }
+  background-color: #477a1e; }
   .howTo p {
     font-size: 18px; }
   .howTo .title {
@@ -80,8 +80,8 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
-  .howTo .start {
+    margin: auto; }
+  .howTo .getStarted {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -92,7 +92,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .howTo .starting {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -104,7 +104,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .howTo .edition {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -116,7 +116,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .howTo .difference {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -128,7 +128,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .howTo .download {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -140,7 +140,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .howTo .downloading {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -152,7 +152,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .howTo .playing {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -164,7 +164,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
   .howTo .play {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -176,4 +176,113 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin-left: 30%; }
+    margin: auto; }
+
+.start {
+  min-height: 100%;
+  width: 100%;
+  background-color: #477a1e; }
+  .start p {
+    font-size: 18px; }
+  .start .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin: auto; }
+  .start .introH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin: auto; }
+  .start .introP {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin: auto; }
+  .start .detailsHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin: auto; }
+  .start .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin: auto; }
+  .start .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin: auto; }
+  .start .steve {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px; }
+  .start .header {
+    background-image: url("../img/minecraft-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-color: #555555; }

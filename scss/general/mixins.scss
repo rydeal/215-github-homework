@@ -1,7 +1,9 @@
-@mixin centerContent {
+@mixin centerContent($width) {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  margin-left: 30%;
+  width: $width;
+  // margin-left: 30%;
+  // text-align: center;
+  margin: auto;
 }
