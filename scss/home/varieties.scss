@@ -1,1 +1,40 @@
 //this scss file is for the varieties sections (equipment, mobs, biomes)
+
+.varieties {
+    min-height: 100%;
+    width: 100%;
+    background-color: $site-green;
+
+    .eq-title {
+        font-size: 20px;
+    }
+
+
+
+    .equipment-container {
+        height: 124px;
+        margin-top: 34px;
+        display: flex;
+        justify-content: space-between;
+    
+        .image-structure {
+            height: 100%;
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+        
+            .eq1, .eq2, .eq3, .eq4, .eq5, .eq6, .eq7, .eq8, .eq9, .eq10, .eq11, .eq12, .eq13, .eq14, .eq15,  {
+                height: 100%;
+                width: 25%;
+                margin: 0 100px;
+            }
+        }
+
+        .eq1 {
+            background-image: url("../../img/equipment/eq1.png");
+            background-position: center;
+            background-size: cover;
+            background-color: red;
+        }
+    }
+}

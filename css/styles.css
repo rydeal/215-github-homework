@@ -177,3 +177,37 @@ p {
     align-items: center;
     width: 40%;
     margin-left: 30%; }
+
+.varieties {
+  min-height: 100%;
+  width: 100%;
+  background-color: #477A1E; }
+  .varieties .eq-title {
+    font-size: 20px; }
+  .varieties .equipment-container {
+    height: 124px;
+    margin-top: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .varieties .equipment-container .image-structure {
+      height: 100%;
+      width: 100px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .varieties .equipment-container .image-structure .eq1, .varieties .equipment-container .image-structure .eq2, .varieties .equipment-container .image-structure .eq3, .varieties .equipment-container .image-structure .eq4, .varieties .equipment-container .image-structure .eq5, .varieties .equipment-container .image-structure .eq6, .varieties .equipment-container .image-structure .eq7, .varieties .equipment-container .image-structure .eq8, .varieties .equipment-container .image-structure .eq9, .varieties .equipment-container .image-structure .eq10, .varieties .equipment-container .image-structure .eq11, .varieties .equipment-container .image-structure .eq12, .varieties .equipment-container .image-structure .eq13, .varieties .equipment-container .image-structure .eq14, .varieties .equipment-container .image-structure .eq15 {
+        height: 100%;
+        width: 25%;
+        margin: 0 100px; }
+    .varieties .equipment-container .eq1 {
+      background-image: url("../../img/equipment/eq1.png");
+      background-position: center;
+      background-size: cover;
+      background-color: red; }
