@@ -4,13 +4,13 @@
   color: white;
   .contributors {
     font-size: 20px;
-    @include centerContent();
+    @include centerContent(40%);
     h5 {
       margin-top: 20px;
     }
   }
   .copyright {
-    @include centerContent();
+    @include centerContent(40%);
   }
   .logo {
     //display: flex;

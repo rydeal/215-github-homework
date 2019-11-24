@@ -3,41 +3,41 @@
   min-height: 100%;
   width: 100%;
   background-color: $site-green;
-  
-    p{
-        font-size:18px;
-    }
+
+  p {
+    font-size: 18px;
+  }
   .title {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .opener {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
 
-  .start {
-    @include centerContent();
+  .getStarted {
+    @include centerContent($marginLeft);
   }
   .starting {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
   .edition {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
   .difference {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
   .download {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
   .downloading {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
   .playing {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
   .play {
-    @include centerContent();
+    @include centerContent($marginLeft);
   }
 }

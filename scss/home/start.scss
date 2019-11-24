@@ -1,1 +1,40 @@
 //this scss file is for styling the getting started section (installation, making the world)
+.start {
+  min-height: 100%;
+  width: 100%;
+  background-color: $site-green;
+  p {
+    font-size: 18px;
+  }
+  .intro {
+    @include centerContent($marginLeft);
+  }
+  .introH {
+    @include centerContent($marginLeft);
+  }
+  .introP {
+    @include centerContent($marginLeft);
+  }
+  .detailsHeader {
+    @include centerContent($marginLeft);
+  }
+  .details {
+    @include centerContent($marginLeft);
+  }
+  .list {
+    @include centerContent($marginLeft);
+  }
+
+  .steve {
+    @include centerContent($marginLeft);
+    margin-top: 50px;
+  }
+  .header {
+    background-image: url("../img/minecraft-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    @include centerContent(100%);
+    height: 500px;
+    background-color: $site-grey;
+  }
+}

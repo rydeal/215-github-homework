@@ -1,1 +1,66 @@
 //this scss file is for styling the photo gallery
+.gallery {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $site-green;
+  .group {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .one {
+      @include imageSet("../img/gallery1.jpg");
+    }
+    .two {
+      @include imageSet("../img/gallery2.jpg");
+    }
+    .three {
+      @include imageSet("../img/gallery3.png");
+    }
+    .four {
+      @include imageSet("../img/gallery4.jpg");
+    }
+    .five {
+      @include imageSet("../img/gallery5.jpg");
+    }
+    .six {
+      @include imageSet("../img/gallery6.jpg");
+    }
+    .seven {
+      @include imageSet("../img/gallery7.jpg");
+    }
+    .eight {
+      @include imageSet("../img/gallery8.jpg");
+    }
+    .nine {
+      @include imageSet("../img/gallery9.webp");
+    }
+
+    .ten {
+      @include imageSet("../img/gallery10.jpg");
+    }
+    .eleven {
+      @include imageSet("../img/gallery11.jpg");
+    }
+    .twelve {
+      @include imageSet("../img/gallery12.jpg");
+    }
+    .thirteen {
+      @include imageSet("../img/gallery13.jpg");
+    }
+    .fourteen {
+      @include imageSet("../img/gallery14.jpg");
+    }
+    .fifteen {
+      @include imageSet("../img/gallery15.png");
+    }
+    .sixteen {
+      @include imageSet("../img/gallery16.jpg");
+    }
+  }
+}
