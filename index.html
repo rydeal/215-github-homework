@@ -6,13 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <title>NEWM-N 215 Homework</title>
   </head>
   <body>
-    <section class="nav"></section>
     <section class="start">
+        <section class="nav">
+            <nav>
+              <div class="logo"><img src="/img/favicon.ico" alt="Minecraft Logo"></div>
+                <p class="nav-name">Minecraft</p>
+                  <div class="links">
+                    <a href="#">Getting Started</a>
+                    <a href="#">Equipment</a>
+                    <a href="#">Mobs</a>
+                    <a href="#">Biomes</a>
+                    <a href="#">Photo Gallery</a>
+                  </div>
+              </nav>
+        </section>
       <div class="header"></div>
-
       <div class="intro">
         <h1>Welcome to the Minecraft Introduction site</h1>
       </div>
@@ -162,7 +174,7 @@
               <div class="image-structure">
                 <div class="eq1" onclick="showDiv('eq1-text')">
                 </div>
-                <div class="eq1-text">
+                <div id="eq1-text">
                   <p>Axe</p>
                   <p>Materials Needed to Craft: 2 sticks, 3 tool materials</p>
                 </div>

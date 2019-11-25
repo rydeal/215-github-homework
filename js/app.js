@@ -2,9 +2,9 @@ var visibleDiv = 0;
 var lastDiv = 0;
 var theDiv = null;
 function showDiv(click) {
-    theDiv = document.getElementsByClassName(click).innerHTML;
+    theDiv = document.getElementById(click).innerHTML;
     console.log(theDiv);
-    // theDiv.style.display = theDiv.style.display == "none" ? "flex" : "none";
+    theDiv.style.display = theDiv.style.display == "none" ? "flex" : "none";
     // for(x = 0; x < 16; x++) {
     //     if (theDiv == x) {
     //         if(visibleDiv == 0 && x !== lastDiv) {
