@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
     <title>NEWM-N 215 Homework</title>
   </head>
   <body>
@@ -156,84 +157,144 @@
       </div>
     </section>
     <section class="varieties">
-        <div class="equipment-container">
-            <div class="image-structure">
-              <div class="eq1">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq2">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq3">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq4">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-                <div class="eq5">
-                    <p class="eq-title">Equipment</p>
+      <div class="equipment-container">
+        <div class="group">
+              <div class="image-structure">
+                <div class="eq1" onclick="showDiv('eq1-text')">
+                </div>
+                <div class="eq1-text">
+                  <p>Axe</p>
+                  <p>Materials Needed to Craft: 2 sticks, 3 tool materials</p>
                 </div>
               </div>
-            <div class="image-structure">
-              <div class="eq6">
-                  <p class="eq-title">Equipment</p>
+              <!-- <div class="image-structure">
+                <div class="eq2" id="2" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq2-text">
+                    <p>Axe</p>
+                    <p>Materials Needed to Craft: 2 sticks, 3 materials</p>
+                  </div>
               </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq7">
-                  <p class="eq-title">Equipment</p>
+              <div class="image-structure">
+                <div class="eq3" id="3" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq3-text">
+                    <p>Chestplate</p>
+                    <p>Materials Needed to Craft: 8 armor materials</p>
+                  </div>
               </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq8">
-                  <p class="eq-title">Equipment</p>
+              <div class="image-structure">
+                <div class="eq4" id="4" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq1-text">
+                    <p>Clock</p>
+                    <p>Materials Needed to Craft: 4 gold ingots, 1 redstone</p>
+                  </div>
               </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq9">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq10">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq11">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq12">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq13">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
-            <div class="image-structure">
-              <div class="eq14">
-                  <p class="eq-title">Equipment</p>    
-              </div>
-
-            </div>
-            <div class="image-structure">
-              <div class="eq15">
-                  <p class="eq-title">Equipment</p>
-              </div>
-            </div>
         </div>
+        <div class="group">
+              <div class="image-structure">
+                  <div class="eq5" id="5" onclick="showDiv(this.id)">
+                  </div>
+                  <div class="eq5-text">
+                      <p>Compass</p>
+                      <p>Materials Needed to Craft: 4 iron ingots, 1 redstone</p>
+                    </div>
+                </div>
+              <div class="image-structure">
+                <div class="eq6" id="6" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq6-text">
+                    <p>Crossbow</p>
+                    <p>Materials Needed to Craft: 1 iron ingot, 3 sticks, 2 strings, 1 tripwire hook</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="eq7" id="7" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq7-text">
+                    <p>Helmet</p>
+                    <p>Materials Needed to Craft: 5 armor materials</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="eq8" id="8" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq8-text">
+                    <p>Hoe</p>
+                    <p>Materials Needed to Craft: 2 sticks, 2 materials</p>
+                  </div>
+              </div>
+        </div>
+        <div class="group">
+              <div class="image-structure">
+                <div class="eq9" id="9" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq9-text">
+                    <p>Sword</p>
+                    <p>Materials Needed to Craft: 1 stick, 2 weapon materials</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="eq10" id="10" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq10-text">
+                    <p>Axe</p>
+                    <p>Materials Needed to Craft: 2 sticks, 3 materials</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="eq11" id="11" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq11-text">
+                    <p>Pickaxe</p>
+                    <p>Materials Needed to Craft: 2 sticks, 3 materials</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="eq12" id="12" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq12-text">
+                    <p>Saddle</p>
+                    <p>Cannot be crafted</p>
+                  </div>
+              </div>
+        </div>
+        <div class="group">
+              <div class="image-structure">
+                <div class="eq13" id="13" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq13-text">
+                    <p>Shears</p>
+                    <p>Materials Needed to Craft: 2 iron ingots</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="eq14" id="14" onclick="showDiv(this.id)">  
+                </div>
+                <div class="eq14-text">
+                    <p>Shield</p>
+                    <p>Materials Needed to Craft: 6 wooden planks, 1 iron ingot</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="eq15" id="15" onclick="showDiv(this.id)">
+                </div>
+                <div class="eq15-text">
+                    <p>Shovel</p>
+                    <p>Materials Needed to Craft: 2 sticks, 1 tool material</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                  <div class="eq16" id="16" onclick="showDiv(this.id)">
+                  </div>
+                  <div class="eq16-text">
+                      <p>Boat</p>
+                      <p>Materials Needed to Craft: 5 wooden planks</p>
+                    </div> -->
+                </div>
+        </div>
+      </div>
     </section>
     <section class="varieties"></section>
     <section class="varieties"></section>
@@ -268,7 +329,7 @@
     </section>
     <section class="footer">
       <div class="logo">
-        <img src="img/favicon.ico" alt="" />
+        <img src="img/favicon.ico" alt="Image of Minecraft Grass Block"/>
       </div>
       <div class="contributors">
         <h5>Created by Ryan Deal and Stewart McCalley for N215</h5>
@@ -278,4 +339,5 @@
       </div>
     </section>
   </body>
+  <script src="js/app.js"></script>
 </html>

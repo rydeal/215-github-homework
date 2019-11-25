@@ -4,30 +4,35 @@
     min-height: 320px;
     width: 100%;
     background-color: $site-green;
+    padding-bottom: 25%;
 
-    .eq-title {
-        font-size: 20px;
-    }
 
+    
 
 
     .equipment-container {
         height: 124px;
         width: 500px;
         text-align: center;
-        margin: 0px 25%;
+        margin: 0px 30%;
         display: flex;
         justify-content: space-between;
+
+        img {
+            max-width: 75%;
+            height: auto;
+        }
+
     }
 
     .image-structure {
-        height: 100%;
-        width: 100%;
+        height: 100px;
+        width: 100px;
         display: inline-block;
         justify-content: space-between;
-        margin-right: 25%;
+        margin: 25%;
     
-        .eq1, .eq2, .eq3, .eq4, .eq5, .eq6, .eq7, .eq8, .eq9, .eq10, .eq11, .eq12, .eq13, .eq14, .eq15,  {
+        .eq1, .eq2, .eq3, .eq4, .eq5, .eq6, .eq7, .eq8, .eq9, .eq10, .eq11, .eq12, .eq13, .eq14, .eq15, .eq16  {
             height: 100%;
             width: 100px;
             margin: 0 auto;
@@ -113,7 +118,7 @@
     }
 
     .eq11 {
-        background-image: url("../../img/equipment/e11.png");
+        background-image: url("../../img/equipment/eq11.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -146,4 +151,18 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .eq16 {
+        background-image: url("../../img/equipment/eq16.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq1-text, .eq2-text, .eq3-text, .eq4-text, .eq5-text, .eq6-text, .eq7-text, .eq8-text, .eq9-text, .eq10-text, .eq11-text, .eq12-text, .eq13-text, .eq14-text, .eq15-text, .eq16-text {
+        display: none;
+    }
+
 }
+
+    
