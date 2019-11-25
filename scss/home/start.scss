@@ -8,6 +8,7 @@
   }
   .intro {
     @include centerContent($marginLeft);
+    margin-top: 50px;
   }
   .introH {
     @include centerContent($marginLeft);
@@ -28,6 +29,7 @@
   .steve {
     @include centerContent($marginLeft);
     margin-top: 50px;
+    padding-bottom: 50px;
   }
   .header {
     background-image: url("../img/minecraft-hero.png");

@@ -53,7 +53,7 @@ p {
   .footer .logo {
     position: absolute;
     margin-top: 20px;
-    margin-left: 35%; }
+    margin-left: 32%; }
 
 nav {
   position: fixed;
@@ -386,7 +386,8 @@ nav {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin: auto; }
+    margin: auto;
+    margin-top: 50px; }
   .start .introH {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -459,7 +460,8 @@ nav {
     align-items: center;
     width: 40%;
     margin: auto;
-    margin-top: 50px; }
+    margin-top: 50px;
+    padding-bottom: 50px; }
   .start .header {
     background-image: url("../img/minecraft-hero.png");
     background-repeat: no-repeat;
