@@ -16,11 +16,11 @@
               <div class="logo"><img src="/img/favicon.ico" alt="Minecraft Logo"></div>
                 <p class="nav-name">Minecraft</p>
                   <div class="links">
-                    <a href="#">Getting Started</a>
-                    <a href="#">Equipment</a>
-                    <a href="#">Mobs</a>
-                    <a href="#">Biomes</a>
-                    <a href="#">Photo Gallery</a>
+                    <a href="#getting">Getting Started</a><span> |</span>
+                    <a href="#equip-tag">Equipment</a><span> |</span>
+                    <a href="#mob-tag">Mobs</a><span> |</span>
+                    <a href="#bio-tag">Biomes</a><span> |</span>
+                    <a href="#photo-tag">Photo Gallery</a>
                   </div>
               </nav>
         </section>
@@ -28,7 +28,7 @@
       <div class="intro">
         <h1>Welcome to the Minecraft Introduction site</h1>
       </div>
-      <div class="introH">
+      <div class="introH" id="1">
         <h2>What is Minecraft?</h2>
       </div>
       <div class="introP">
@@ -68,7 +68,7 @@
           the game!
         </p>
       </div>
-      <div class="getStarted">
+      <div class="getStarted" id="getting">
         <h2>Getting started</h2>
       </div>
       <div class="starting">
@@ -168,8 +168,15 @@
         </p>
       </div>
     </section>
+    <div class="info">
+      <h2 class="equip" id="equip-tag">Equipment</h2>
+        <h5 class="equip-desc"><a href="https://minecraft.gamepedia.com/Tools">Anything regarding tools can be found here.</a></h5>
+        <h5 class="equip-desc"><a href="https://minecraft.gamepedia.com/Armor">Anything regarding armor can be found here.</a></h5>
+        <h5 class="equip-desc"><a href="https://minecraft.gamepedia.com/Weapons">Anything regarding weapons can be found here.</a></h5>
+        <h6 class="equip-desc">Note: This isn't all the equipment that Minecraft has to offer!</h6>
+    </div>
     <section class="varieties">
-      <div class="equipment-container">
+      <div class="container">
         <div class="group">
               <div class="image-structure">
                 <div class="eq1" onclick="showDiv('eq1-text')">
@@ -179,26 +186,26 @@
                   <p>Materials Needed to Craft: 2 sticks, 3 tool materials</p>
                 </div>
               </div>
-              <!-- <div class="image-structure">
-                <div class="eq2" id="2" onclick="showDiv(this.id)">
+              <div class="image-structure">
+                <div class="eq2" onclick="showDiv('eq2-text')">
                 </div>
-                <div class="eq2-text">
-                    <p>Axe</p>
-                    <p>Materials Needed to Craft: 2 sticks, 3 materials</p>
+                <div id="eq2-text">
+                    <p>Boots</p>
+                    <p>Materials Needed to Craft: 6 armor materials</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq3" id="3" onclick="showDiv(this.id)">
+                <div class="eq3" onclick="showDiv('eq3-text')">
                 </div>
-                <div class="eq3-text">
+                <div id="eq3-text">
                     <p>Chestplate</p>
                     <p>Materials Needed to Craft: 8 armor materials</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq4" id="4" onclick="showDiv(this.id)">
+                <div class="eq4" onclick="showDiv('eq4-text')">
                 </div>
-                <div class="eq1-text">
+                <div id="eq4-text">
                     <p>Clock</p>
                     <p>Materials Needed to Craft: 4 gold ingots, 1 redstone</p>
                   </div>
@@ -206,33 +213,33 @@
         </div>
         <div class="group">
               <div class="image-structure">
-                  <div class="eq5" id="5" onclick="showDiv(this.id)">
+                  <div class="eq5" onclick="showDiv('eq5-text')">
                   </div>
-                  <div class="eq5-text">
+                  <div id="eq5-text">
                       <p>Compass</p>
                       <p>Materials Needed to Craft: 4 iron ingots, 1 redstone</p>
                     </div>
                 </div>
               <div class="image-structure">
-                <div class="eq6" id="6" onclick="showDiv(this.id)">
+                <div class="eq6" onclick="showDiv('eq6-text')">
                 </div>
-                <div class="eq6-text">
+                <div id="eq6-text">
                     <p>Crossbow</p>
                     <p>Materials Needed to Craft: 1 iron ingot, 3 sticks, 2 strings, 1 tripwire hook</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq7" id="7" onclick="showDiv(this.id)">
+                <div class="eq7" onclick="showDiv('eq7-text')">
                 </div>
-                <div class="eq7-text">
+                <div id="eq7-text">
                     <p>Helmet</p>
                     <p>Materials Needed to Craft: 5 armor materials</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq8" id="8" onclick="showDiv(this.id)">
+                <div class="eq8" onclick="showDiv('eq8-text')">
                 </div>
-                <div class="eq8-text">
+                <div id="eq8-text">
                     <p>Hoe</p>
                     <p>Materials Needed to Craft: 2 sticks, 2 materials</p>
                   </div>
@@ -240,33 +247,33 @@
         </div>
         <div class="group">
               <div class="image-structure">
-                <div class="eq9" id="9" onclick="showDiv(this.id)">
+                <div class="eq9" onclick="showDiv('eq9-text')">
                 </div>
-                <div class="eq9-text">
+                <div id="eq9-text">
                     <p>Sword</p>
                     <p>Materials Needed to Craft: 1 stick, 2 weapon materials</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq10" id="10" onclick="showDiv(this.id)">
+                <div class="eq10" onclick="showDiv('eq10-text')">
                 </div>
-                <div class="eq10-text">
-                    <p>Axe</p>
-                    <p>Materials Needed to Craft: 2 sticks, 3 materials</p>
+                <div id="eq10-text">
+                    <p>Leggings</p>
+                    <p>Materials Needed to Craft: 7 armor materials</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq11" id="11" onclick="showDiv(this.id)">
+                <div class="eq11" onclick="showDiv('eq11-text')">
                 </div>
-                <div class="eq11-text">
+                <div id="eq11-text">
                     <p>Pickaxe</p>
                     <p>Materials Needed to Craft: 2 sticks, 3 materials</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq12" id="12" onclick="showDiv(this.id)">
+                <div class="eq12" onclick="showDiv('eq12-text')">
                 </div>
-                <div class="eq12-text">
+                <div id="eq12-text">
                     <p>Saddle</p>
                     <p>Cannot be crafted</p>
                   </div>
@@ -274,45 +281,260 @@
         </div>
         <div class="group">
               <div class="image-structure">
-                <div class="eq13" id="13" onclick="showDiv(this.id)">
+                <div class="eq13" onclick="showDiv('eq13-text')">
                 </div>
-                <div class="eq13-text">
+                <div id="eq13-text">
                     <p>Shears</p>
                     <p>Materials Needed to Craft: 2 iron ingots</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq14" id="14" onclick="showDiv(this.id)">  
+                <div class="eq14" onclick="showDiv('eq14-text')">  
                 </div>
-                <div class="eq14-text">
+                <div id="eq14-text">
                     <p>Shield</p>
                     <p>Materials Needed to Craft: 6 wooden planks, 1 iron ingot</p>
                   </div>
               </div>
               <div class="image-structure">
-                <div class="eq15" id="15" onclick="showDiv(this.id)">
+                <div class="eq15" onclick="showDiv('eq15-text')">
                 </div>
-                <div class="eq15-text">
+                <div id="eq15-text">
                     <p>Shovel</p>
                     <p>Materials Needed to Craft: 2 sticks, 1 tool material</p>
                   </div>
               </div>
               <div class="image-structure">
-                  <div class="eq16" id="16" onclick="showDiv(this.id)">
+                  <div class="eq16" onclick="showDiv('eq16-text')">
                   </div>
-                  <div class="eq16-text">
+                  <div id="eq16-text">
                       <p>Boat</p>
                       <p>Materials Needed to Craft: 5 wooden planks</p>
-                    </div> -->
+                    </div>
                 </div>
         </div>
       </div>
     </section>
-    <section class="varieties"></section>
-    <section class="varieties"></section>
+    <h2 class="equip" id="mob-tag">Mobs</h2>
+        <h5 class="equip-desc"><a href="https://minecraft.gamepedia.com/Mob">Read more about mobs here!</a></h5>
+        <h6 class="equip-desc">Note: These aren't all of the mobs in Minecraft!</h6>
+    <section class="varieties"> 
+        <div class="container">
+          <div class="group">
+                    <div class="image-structure">
+                  <div class="mob1" onclick="showDiv('mob1-text')">
+                  </div>
+                  <div id="mob1-text">
+                    <p>Blaze</p>
+                    <p>Spawn Location: Nether Fortress</p>
+                  </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob2" onclick="showDiv('mob2-text')">
+                  </div>
+                  <div id="mob2-text">
+                      <p>Chicken</p>
+                      <p>Spawn Location: On land in the Overworld</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob3" onclick="showDiv('mob3-text')">
+                  </div>
+                  <div id="mob3-text">
+                      <p>Cow</p>
+                      <p>Spawn Location: On land in the Overworld</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob4" onclick="showDiv('mob4-text')">
+                  </div>
+                  <div id="mob4-text">
+                      <p>Creeper</p>
+                      <p>Spawn Location: Most places that are dark in the Overworld</p>
+                    </div>
+                </div>
+          </div>
+          <div class="group">
+                <div class="image-structure">
+                    <div class="mob5" onclick="showDiv('mob5-text')">
+                    </div>
+                    <div id="mob5-text">
+                        <p>Elder Guardian</p>
+                        <p>Spawn Location: Deep Ocean</p>
+                      </div>
+                  </div>
+                <div class="image-structure">
+                  <div class="mob6" onclick="showDiv('mob6-text')">
+                  </div>
+                  <div id="mob6-text">
+                      <p>Ender Dragon</p>
+                      <p>Spawn Location: The End</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob7" onclick="showDiv('mob7-text')">
+                  </div>
+                  <div id="mob7-text">
+                      <p>Enderman</p>
+                      <p>Spawn Location: Anywhere not in water or lava</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob8" onclick="showDiv('mob8-text')">
+                  </div>
+                  <div id="mob8-text">
+                      <p>Ghast</p>
+                      <p>Spawn Location: The Nether</p>
+                    </div>
+                </div>
+          </div>
+          <div class="group">
+                <div class="image-structure">
+                  <div class="mob9" onclick="showDiv('mob9-text')">
+                  </div>
+                  <div id="mob9-text">
+                      <p>Horse</p>
+                      <p>Spawn Location: Plains and Savannas</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob10" onclick="showDiv('mob10-text')">
+                  </div>
+                  <div id="mob10-text">
+                      <p>Pig</p>
+                      <p>Spawn Location: On land in the Overworld</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob11" onclick="showDiv('mob11-text')">
+                  </div>
+                  <div id="mob11-text">
+                      <p>Sheep</p>
+                      <p>Spawn Location: On land in the Overworld</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob12" onclick="showDiv('mob12-text')">
+                  </div>
+                  <div id="mob12-text">
+                      <p>Skeleton</p>
+                      <p>Spawn Location: Anywhere dark in the Overworld</p>
+                    </div>
+                </div>
+          </div>
+          <div class="group">
+                <div class="image-structure">
+                  <div class="mob13" onclick="showDiv('mob13-text')">
+                  </div>
+                  <div id="mob13-text">
+                      <p>Spider</p>
+                      <p>Spawn Location: Anywhere dark in the Overworld</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob14" onclick="showDiv('mob14-text')">  
+                  </div>
+                  <div id="mob14-text">
+                      <p>Villager</p>
+                      <p>Spawn Location: Randomly spawned villages across the map</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                  <div class="mob15" onclick="showDiv('mob15-text')">
+                  </div>
+                  <div id="mob15-text">
+                      <p>Zombie</p>
+                      <p>Spawn Location: Anywhere dark in the Overworld</p>
+                    </div>
+                </div>
+                <div class="image-structure">
+                    <div class="mob16" onclick="showDiv('mob16-text')">
+                    </div>
+                    <div id="mob16-text">
+                        <p>Zombie Pigman</p>
+                        <p>Spawn Location: The Nether</p>
+                      </div>
+                  </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="equip" id="bio-tag">Biomes</h2>
+      <h5 class="equip-desc"><a href="https://minecraft.gamepedia.com/Biomes">Learn more about the blocks you step on here!</a></h5>
+      <h6 class="equip-desc">Note: There are more complex biomes than these ones!</h6>
+  <section class="varieties"> 
+      <div class="container">
+        <div class="group">
+                  <div class="image-structure">
+                <div class="bio1" onclick="showDiv('bio1-text')">
+                </div>
+                <div id="bio1-text">
+                  <p>The End</p>
+                  <p>How to Get Here: Go to a Stronghold!</p>
+                </div>
+              </div>
+              <div class="image-structure">
+                <div class="bio2" onclick="showDiv('bio2-text')">
+                </div>
+                <div id="bio2-text">
+                    <p>Plains</p>
+                    <p>How to Get Here: If you don't want to look, use the seed '700'!</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="bio3" onclick="showDiv('bio3-text')">
+                </div>
+                <div id="bio3-text">
+                    <p>Jungle</p>
+                    <p>How to Get Here: Use the seed '400055' if you don't want to walk!</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="bio4" onclick="showDiv('bio4-text')">
+                </div>
+                <div id="bio4-text">
+                    <p>The Nether</p>
+                    <p>How to Get Here: Make a Nether Portal with obsidian blocks and flint and steel!</p>
+                  </div>
+              </div>
+        </div>
+        <div class="group">
+              <div class="image-structure">
+                  <div class="bio5" onclick="showDiv('bio5-text')">
+                  </div>
+                  <div id="bio5-text">
+                      <p>Desert</p>
+                      <p>How to Get Here: If you don't want to walk (and want to see a pyramid), use the seed '400009'!</p>
+                    </div>
+                </div>
+              <div class="image-structure">
+                <div class="bio6" onclick="showDiv('bio6-text')">
+                </div>
+                <div id="bio6-text">
+                    <p>Ice Plains</p>
+                    <p>How to Get Here: Use the seed '7003' to spawn in one that has a Taiga biome west of it!</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="bio7" onclick="showDiv('bio7-text')">
+                </div>
+                <div id="bio7-text">
+                    <p>Underwater</p>
+                    <p>How to Get Here: Find an Ocean Monument under the sea by using the seed '400'!</p>
+                  </div>
+              </div>
+              <div class="image-structure">
+                <div class="bio8" onclick="showDiv('bio8-text')">
+                </div>
+                <div id="bio8-text">
+                    <p>Savanna</p>
+                    <p>How to Get Here: If you don't want to look around for one, use the seed '666' and you can find a village to the South!</p>
+                  </div>
+              </div>
+        </div>
+  </section>
     <section class="photos">
       <div class="gallery">
-        <div class="tag"><h1>Minecraft Gallery</h1></div>
+        <div class="tag" id="#photo-tag"><h1>Minecraft Gallery</h1></div>
         <div class="group">
           <div class="one"></div>
           <div class="two"></div>

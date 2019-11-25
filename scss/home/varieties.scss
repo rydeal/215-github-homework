@@ -4,13 +4,13 @@
     min-height: 320px;
     width: 100%;
     background-color: $site-green;
-    padding-bottom: 25%;
+    padding-bottom: 55%;
 
 
     
 
 
-    .equipment-container {
+    .container {
         height: 124px;
         width: 500px;
         text-align: center;
@@ -38,11 +38,21 @@
             margin: 0 auto;
             justify-content: space-between;
 
-            .eq-title {
-                padding: 20%;
-                color: white;
-                font-size: 1.2em;
-            }
+        }
+
+        .mob1, .mob2, .mob3, .mob4, .mob5, .mob6, .mob7, .mob8, .mob9, .mob10, .mob11, .mob12, .mob13, .mob14, .mob15, .mob16  {
+            height: 100%;
+            width: 100px;
+            margin: 0 auto;
+            justify-content: space-between;
+
+        }
+
+        .bio1, .bio2, .bio3, .bio4, .bio5, .bio6, .bio7, .bio8 {
+            height: 100%;
+            width: 100px;
+            margin: 0 auto;
+            justify-content: space-between;
 
         }
     }
@@ -159,8 +169,198 @@
         background-repeat: no-repeat;
     }
 
-    .eq1-text, .eq2-text, .eq3-text, .eq4-text, .eq5-text, .eq6-text, .eq7-text, .eq8-text, .eq9-text, .eq10-text, .eq11-text, .eq12-text, .eq13-text, .eq14-text, .eq15-text, .eq16-text {
-        display: none;
+    .mob1 {
+        background-image: url("../../img/mobs/mob1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob2 {
+        background-image: url("../../img/mobs/mob2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob3 {
+        background-image: url("../../img/mobs/mob3.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob4 {
+        background-image: url("../../img/mobs/mob4.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob5 {
+        background-image: url("../../img/mobs/mob5.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob6 {
+        background-image: url("../../img/mobs/mob6.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob7 {
+        background-image: url("../../img/mobs/mob7.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob8 {
+        background-image: url("../../img/mobs/mob8.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob9 {
+        background-image: url("../../img/mobs/mob9.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob10 {
+        background-image: url("../../img/mobs/mob10.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob11 {
+        background-image: url("../../img/mobs/mob11.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob12 {
+        background-image: url("../../img/mobs/mob12.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob13 {
+        background-image: url("../../img/mobs/mob13.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob14 {
+        background-image: url("../../img/mobs/mob14.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob15 {
+        background-image: url("../../img/mobs/mob15.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mob16 {
+        background-image: url("../../img/mobs/mob16.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio1 {
+        background-image: url("../../img/biomes/bio1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio2 {
+        background-image: url("../../img/biomes/bio2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio3 {
+        background-image: url("../../img/biomes/bio3.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio4 {
+        background-image: url("../../img/biomes/bio4.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio5 {
+        background-image: url("../../img/biomes/bio5.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio6 {
+        background-image: url("../../img/biomes/bio6.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio7 {
+        background-image: url("../../img/biomes/bio7.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bio8 {
+        background-image: url("../../img/biomes/bio8.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+#eq1-text, #eq2-text, #eq3-text, #eq4-text, #eq5-text, #eq6-text, #eq7-text, #eq8-text, #eq9-text, #eq10-text, #eq11-text, #eq12-text, #eq13-text, #eq14-text, #eq15-text, #eq16-text {
+    display: none;
+}
+
+#mob1-text, #mob2-text, #mob3-text, #mob4-text, #mob5-text, #mob6-text, #mob7-text, #mob8-text, #mob9-text, #mob10-text, #mob11-text, #mob12-text, #mob13-text, #mob14-text, #mob15-text, #mob16-text {
+    display: none;
+}
+
+#bio1-text, #bio2-text, #bio3-text, #bio4-text, #bio5-text, #bio6-text, #bio7-text, #bio8-text {
+    display: none;
+}
+
+
+
+.equip {
+    text-align: center;
+}
+
+.equip-desc {
+    text-align: center;
+    
+    a {
+        text-decoration: none;
     }
 
 }

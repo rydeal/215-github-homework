@@ -4,7 +4,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Share Tech Mono", monospace;
-  color: #fff; }
+  color: #fff;
+  background-color: #477a1e; }
 
 html,
 body {
@@ -25,6 +26,7 @@ p {
   color: white; }
   .footer .contributors {
     font-size: 20px;
+    background-color: #555555;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -37,7 +39,8 @@ p {
     width: 40%;
     margin: auto; }
     .footer .contributors h5 {
-      margin-top: 20px; }
+      margin-top: 20px;
+      background-color: #555555; }
   .footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -49,60 +52,78 @@ p {
     -ms-flex-align: center;
     align-items: center;
     width: 40%;
-    margin: auto; }
+    margin: auto;
+    background-color: #555555; }
+  .footer img {
+    background-color: #555555; }
   .footer .logo {
     position: absolute;
-    margin-top: 20px;
-    margin-left: 35%; }
+    margin-top: 10px;
+    margin-left: 27.5%;
+    background-color: #555555; }
 
 nav {
   position: fixed;
-  left: 50px;
+  left: 0px;
   z-index: 99;
-  height: 900px;
-  width: 200px;
+  height: 100px;
+  width: 100%;
   background-color: #555555;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  nav img {
+    background-color: #555555; }
   nav .logo {
     width: 100%;
     height: 90px;
-    margin-top: 20px;
-    margin-left: 138px; }
+    margin-top: 10px;
+    margin-left: 38px;
+    background-color: #555555; }
   nav .nav-name {
     font-family: "Share Tech Mono", monospace;
     font-size: 25px;
     font-style: italic;
     font-weight: 700;
-    color: #fff; }
+    color: #fff;
+    margin-right: 50%;
+    margin-top: .7%;
+    background-color: #555555; }
   nav .links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    height: 300px;
-    margin-bottom: 300px; }
+    height: 100px;
+    margin-right: 50%;
+    background-color: #555555; }
     nav .links a {
       text-decoration: none;
       color: #fff;
       font-family: "Share Tech Mono", monospace;
-      font-size: 15px; }
+      font-size: 15px;
+      background-color: #555555; }
+    nav .links span {
+      margin: 0 10px;
+      background-color: #555555; }
 
 .howTo {
   min-height: 100%;
@@ -228,6 +249,9 @@ nav {
     align-items: center;
     width: 40%;
     margin: auto; }
+
+.photos {
+  margin-top: 20%; }
 
 .gallery {
   min-height: 100%;
@@ -482,8 +506,8 @@ nav {
   min-height: 320px;
   width: 100%;
   background-color: #477a1e;
-  padding-bottom: 25%; }
-  .varieties .equipment-container {
+  padding-bottom: 55%; }
+  .varieties .container {
     height: 124px;
     width: 500px;
     text-align: center;
@@ -494,7 +518,7 @@ nav {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
-    .varieties .equipment-container img {
+    .varieties .container img {
       max-width: 75%;
       height: auto; }
   .varieties .image-structure {
@@ -512,10 +536,20 @@ nav {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between; }
-      .varieties .image-structure .eq1 .eq-title, .varieties .image-structure .eq2 .eq-title, .varieties .image-structure .eq3 .eq-title, .varieties .image-structure .eq4 .eq-title, .varieties .image-structure .eq5 .eq-title, .varieties .image-structure .eq6 .eq-title, .varieties .image-structure .eq7 .eq-title, .varieties .image-structure .eq8 .eq-title, .varieties .image-structure .eq9 .eq-title, .varieties .image-structure .eq10 .eq-title, .varieties .image-structure .eq11 .eq-title, .varieties .image-structure .eq12 .eq-title, .varieties .image-structure .eq13 .eq-title, .varieties .image-structure .eq14 .eq-title, .varieties .image-structure .eq15 .eq-title, .varieties .image-structure .eq16 .eq-title {
-        padding: 20%;
-        color: white;
-        font-size: 1.2em; }
+    .varieties .image-structure .mob1, .varieties .image-structure .mob2, .varieties .image-structure .mob3, .varieties .image-structure .mob4, .varieties .image-structure .mob5, .varieties .image-structure .mob6, .varieties .image-structure .mob7, .varieties .image-structure .mob8, .varieties .image-structure .mob9, .varieties .image-structure .mob10, .varieties .image-structure .mob11, .varieties .image-structure .mob12, .varieties .image-structure .mob13, .varieties .image-structure .mob14, .varieties .image-structure .mob15, .varieties .image-structure .mob16 {
+      height: 100%;
+      width: 100px;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    .varieties .image-structure .bio1, .varieties .image-structure .bio2, .varieties .image-structure .bio3, .varieties .image-structure .bio4, .varieties .image-structure .bio5, .varieties .image-structure .bio6, .varieties .image-structure .bio7, .varieties .image-structure .bio8 {
+      height: 100%;
+      width: 100px;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
   .varieties .eq1 {
     background-image: url("../../img/equipment/eq1.png");
     background-position: center;
@@ -596,5 +630,140 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
-  .varieties .eq1-text, .varieties .eq2-text, .varieties .eq3-text, .varieties .eq4-text, .varieties .eq5-text, .varieties .eq6-text, .varieties .eq7-text, .varieties .eq8-text, .varieties .eq9-text, .varieties .eq10-text, .varieties .eq11-text, .varieties .eq12-text, .varieties .eq13-text, .varieties .eq14-text, .varieties .eq15-text, .varieties .eq16-text {
-    display: none; }
+  .varieties .mob1 {
+    background-image: url("../../img/mobs/mob1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob2 {
+    background-image: url("../../img/mobs/mob2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob3 {
+    background-image: url("../../img/mobs/mob3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob4 {
+    background-image: url("../../img/mobs/mob4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob5 {
+    background-image: url("../../img/mobs/mob5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob6 {
+    background-image: url("../../img/mobs/mob6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob7 {
+    background-image: url("../../img/mobs/mob7.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob8 {
+    background-image: url("../../img/mobs/mob8.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob9 {
+    background-image: url("../../img/mobs/mob9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob10 {
+    background-image: url("../../img/mobs/mob10.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob11 {
+    background-image: url("../../img/mobs/mob11.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob12 {
+    background-image: url("../../img/mobs/mob12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob13 {
+    background-image: url("../../img/mobs/mob13.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob14 {
+    background-image: url("../../img/mobs/mob14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob15 {
+    background-image: url("../../img/mobs/mob15.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .mob16 {
+    background-image: url("../../img/mobs/mob16.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio1 {
+    background-image: url("../../img/biomes/bio1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio2 {
+    background-image: url("../../img/biomes/bio2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio3 {
+    background-image: url("../../img/biomes/bio3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio4 {
+    background-image: url("../../img/biomes/bio4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio5 {
+    background-image: url("../../img/biomes/bio5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio6 {
+    background-image: url("../../img/biomes/bio6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio7 {
+    background-image: url("../../img/biomes/bio7.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .varieties .bio8 {
+    background-image: url("../../img/biomes/bio8.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+#eq1-text, #eq2-text, #eq3-text, #eq4-text, #eq5-text, #eq6-text, #eq7-text, #eq8-text, #eq9-text, #eq10-text, #eq11-text, #eq12-text, #eq13-text, #eq14-text, #eq15-text, #eq16-text {
+  display: none; }
+
+#mob1-text, #mob2-text, #mob3-text, #mob4-text, #mob5-text, #mob6-text, #mob7-text, #mob8-text, #mob9-text, #mob10-text, #mob11-text, #mob12-text, #mob13-text, #mob14-text, #mob15-text, #mob16-text {
+  display: none; }
+
+#bio1-text, #bio2-text, #bio3-text, #bio4-text, #bio5-text, #bio6-text, #bio7-text, #bio8-text {
+  display: none; }
+
+.equip {
+  text-align: center; }
+
+.equip-desc {
+  text-align: center; }
+  .equip-desc a {
+    text-decoration: none; }

@@ -4,20 +4,26 @@
   color: white;
   .contributors {
     font-size: 20px;
+    background-color: $site-grey;
     @include centerContent(40%);
     h5 {
       margin-top: 20px;
+      background-color: $site-grey;
     }
   }
   .copyright {
     @include centerContent(40%);
+    background-color: $site-grey;
   }
+
+  img {
+    background-color: $site-grey;
+  }
+
   .logo {
-    //display: flex;
-    //justify-content: center;
-    //align-items: center;
     position: absolute;
-    margin-top: 20px;
-    margin-left: 35%;
+    margin-top: 10px;
+    margin-left: 27.5%;
+    background-color: $site-grey;
   }
 }
